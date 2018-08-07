@@ -6,3 +6,10 @@ html{
   display: flex;
   justify-content: space-between;
 }
+li{
+  text-align: left;
+  font-size: 25px;
+}
+#log{
+  text-align:right;
+}
