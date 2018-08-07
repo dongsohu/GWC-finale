@@ -8,8 +8,81 @@ html{
 }
 li{
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: 'Petit Formal Script', cursive;
+
 }
 #log{
   text-align:right;
+  
+}
+#stuff{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff7373;
+  
+}
+.stuff1{
+  color: white;
+    font-family: 'Petit Formal Script', cursive;
+
+}
+.OAR{
+  font-family: 'Aguafina Script', cursive;
+  font-size: 60px;
+  
+}
+.words{
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 20px;
+}
+.words2{
+  font-family: 'Petit Formal Script', cursive;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+.home{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.site{
+  text-decoration: none;
+}
+button{
+  background-color: black;
+  border-radius: 50%;
+  padding: 20px;
+}
+#buuton{
+  color:white;
+}
+#buu{
+  color:white;
+}
+#buu2{
+  color:white;
+}
+#buu3{
+  color:white;
+}
+.ciao{
+  margin: 20px;
+}
+#stuff2{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#stuff3{
+  display: flex;
+  justify-content: flex-end;
+}
+#allstuff{
+  display:flex;
+  justify-content:space-between;
 }
