@@ -1,93 +1,3 @@
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-signupButtons {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-button:hover {
-    opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: red;
-}
-.signupbtn{
-  background-color: green;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-    padding: 16px;
-}
-
-
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* Style the horizontal ruler */
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
- 
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-    color: #f44336;
-    cursor: pointer;
-}
-
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-}
 html{
   background: linear-gradient(to bottom, #ffff66 0%, #ff0000 100%);
   text-align: center;
@@ -130,16 +40,12 @@ li{
   font-family: 'Petit Formal Script', cursive;
   color: black;
   font-weight: bold;
-  text-decoration: none;
+  margin: 10px;
 }
 a:visited {
     color: white;
 }
-.home{
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
-}
+
 .site{
   text-decoration: none;
 }
@@ -160,9 +66,7 @@ button{
 #buu3{
   color:white;
 }
-.ciao{
-  margin: 20px;
-}
+
 #stuff2{
   display: flex;
   justify-content: flex-start;
@@ -209,4 +113,23 @@ button{
 #site2{
   text-decoration: none;
   color:white;
+}
+#grad{
+  background: -webkit-linear-gradient(#000000,#6d6d6d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+#grad2{
+  color:#adadad;
+}
+img{
+  width: 255px;
+}
+#im-gs{
+  display: flex;
+  justify-content: space-between;
+}
+#log{
+  display: flex;
+  justify-content:space-between;
 }
