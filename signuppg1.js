@@ -1,0 +1,2 @@
+/*global$*/
+$("body").alert("Hi");
