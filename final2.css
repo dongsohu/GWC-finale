@@ -57,25 +57,10 @@ button{
 #buuton{
   color:white;
 }
-#buu{
-  color:white;
-}
-#buu2{
-  color:white;
-}
-#buu3{
+#buu, #buu2, #buu3{
   color:white;
 }
 
-#stuff2{
-  display: flex;
-  justify-content: flex-start;
-}
-
-#stuff3{
-  display: flex;
-  justify-content: flex-end;
-}
 #allstuff{
   display:flex;
   justify-content:space-between;
@@ -109,10 +94,6 @@ button{
   color: white;
   font-weight: bold;
   font-size: 15px; 
-}
-#site2{
-  text-decoration: none;
-  color:white;
 }
 #grad{
   background: -webkit-linear-gradient(#000000,#6d6d6d);
