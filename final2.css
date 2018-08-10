@@ -101,7 +101,11 @@ button{
   -webkit-text-fill-color: transparent
 }
 #grad2{
-  color:#adadad;
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px;
+  background: -webkit-linear-gradient(#adadad, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
 }
 img{
   width: 255px;
