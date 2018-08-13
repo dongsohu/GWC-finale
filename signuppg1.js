@@ -56,5 +56,14 @@ function filledOut(userName, userEmail, userPswrd, userPswrd2){
         
         return allFilled;
 }
-var signUpResult = allFilled(userName, userEmail, userPswrd, userPswrd2)
+var signUpResult = allFilled(nameInput, emailInput, passwordInput, passwordInput2);
 
+if (input != null){
+//  if you've filled out all inputs correctly and the button is clicked then can you go to the next page
+
+    
+}
+
+$("").click(function(){
+    
+});
