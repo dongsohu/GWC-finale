@@ -21,18 +21,18 @@ if (typeof(Storage) !== "undefined") {
 
 /*global placeholder*/
 if (placeholder === null ){
-    alert("You must fill out all every feild.");
+    alert("You must fill out all every field.");
     
 }else{
     
 }
 var newUser= new usersObject()
-newUser.password = passwordInput
-newUser.email = emailInput
+newUser.password = passwordInput;
+newUser.email = emailInput;
 function signupFunct(newUser, userInput) {
     localStorage.setItem(newUser,userInput);
 }
-function filledOut(userName, userEmail, userPswrd, userPswrd2){
+/*function filledOut(userName, userEmail, userPswrd, userPswrd2){
         var a = document.forms["signUp"]["createUserName"].value
         var b = document.forms["signUp"]["createEmail"].value
         var c = document.forms["signUp"]["createPswrd"].value
@@ -56,14 +56,30 @@ function filledOut(userName, userEmail, userPswrd, userPswrd2){
         
         return allFilled;
 }
-var signUpResult = allFilled(nameInput, emailInput, passwordInput, passwordInput2);
-
+*/
+var signUpResult = filledOut(nameInput, emailInput, passwordInput, passwordInput2);
+/*global*/
 if (input != null){
-//  if you've filled out all inputs correctly and the button is clicked then can you go to the next page
+$("document").ready(function(){
+    $("#signupsNextbutton").click(function(){
+        e.preventDefault();
+        $('#dictionary').load('sign2.html');
+        
+    });
 
-    
-}
-/*glo
-$("").click(function(){
-    
-});
+/*
+//login functions//
+var e = document.forms["loginForm"]["nameEmail"].value
+var f = document.forms["loginForm"]["logPSWRD"].value
+function logIN(UserName, UserPswrd){
+    if (localStorage.getItem(UserName)== null){
+       alert("No username found!");
+   } if(localStorage.getItem(UserName).password  == UserPswrd){
+        $("document").ready(function(){
+            $("#enterBut").click(function(){
+                e.preventDefault();
+                $('#dictionary').load('basicpg.html');
+   }else{
+    alert("Wrong Password or Username.");
+   }
+*/

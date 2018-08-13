@@ -118,3 +118,15 @@ img{
   display: flex;
   justify-content:space-between;
 }
+#next1{
+  font-family: 'Petit Formal Script', cursive;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
+#enterBut{
+   font-family: 'Petit Formal Script', cursive;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
