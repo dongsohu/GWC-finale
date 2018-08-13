@@ -4,11 +4,12 @@ var passwordInput = document.getelementID("usersPswrd").value;
 var passwordInput2 = document.getelementID("usersPswrd2").value;
 // above are empty variables whatever the user types will be put into the variable 
 var usersObject = {
-        password :"" ,
-        email: "",
-        grades : "",
-        priorityList : ""
+    password :"" ,
+    email: "",
+    grades : "",
+    priorityList : ""
 };
+
 /*global localStorage*/
 if (typeof(Storage) !== "undefined") {
     // Store
@@ -29,9 +30,10 @@ if (placeholder === null ){
 var newUser= new usersObject()
 newUser.password = passwordInput;
 newUser.email = emailInput;
-function signupFunct(newUser, userInput) {
-    localStorage.setItem(newUser,userInput);
+function signupFunct(newUse, userInput) {
+    localStorage.setItem(newUse,userInput);
 }
+
 /*function filledOut(userName, userEmail, userPswrd, userPswrd2){
         var a = document.forms["signUp"]["createUserName"].value
         var b = document.forms["signUp"]["createEmail"].value
