@@ -11,6 +11,7 @@ var usersObject = {
 };
 
 /*global localStorage*/
+
 /*
 if (typeof(Storage) !== "undefined") {
     // Store
@@ -20,6 +21,7 @@ if (typeof(Storage) !== "undefined") {
 } else {
     document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
 }
+
 */
 
 

@@ -1,16 +1,20 @@
 html{
   background: linear-gradient(to bottom, #ffff66 0%, #ff0000 100%);
+  
   text-align: center;
 }
 
 #but1{
   display: flex;
+  
   justify-content: space-between;
 }
 
 li{
   text-align: left;
+ 
   font-size: 20px;
+  
   font-family: 'Petit Formal Script', cursive;
 
 }
