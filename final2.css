@@ -2,46 +2,56 @@ html{
   background: linear-gradient(to bottom, #ffff66 0%, #ff0000 100%);
   text-align: center;
 }
+
 #but1{
   display: flex;
   justify-content: space-between;
 }
+
 li{
   text-align: left;
   font-size: 20px;
   font-family: 'Petit Formal Script', cursive;
 
 }
+
 #log{
   text-align:right;
   
 }
+
+
 #stuff{
   display: flex;
   justify-content: space-between;
   background-color: #ff7373;
   
 }
+
 .stuff1{
   color: white;
     font-family: 'Petit Formal Script', cursive;
 
 }
+
 .OAR{
   font-family: 'Aguafina Script', cursive;
   font-size: 60px;
   
 }
+
 .words{
   font-family: 'Petit Formal Script', cursive;
   font-size: 20px;
 }
+
 .words2{
   font-family: 'Petit Formal Script', cursive;
   color: black;
   font-weight: bold;
   margin: 10px;
 }
+
 a:visited {
     color: white;
 }
@@ -61,45 +71,53 @@ button{
   color:white;
 }
 
+
 #allstuff{
   display:flex;
   justify-content:space-between;
 }
+
 #miss{
   font-family: 'Euphoria Script', cursive;
   color: black;
   font-weight: bold;
   font-size: 60px;
 }
+
 .words3{
   font-family: 'Petit Formal Script', cursive;
   color: black;
   font-weight: bold;
   font-size: 15px;
 }
+
 .alum{
   font-family: 'Euphoria Script', cursive;
   color: black;
   font-weight: bold;
   font-size: 45px;
 }
+
 #miss2{
   font-family: 'Euphoria Script', cursive;
   color: white;
   font-weight: bold;
   font-size: 35px;
 }
+
 .groupie{
  font-family: 'Petit Formal Script', cursive;
   color: white;
   font-weight: bold;
   font-size: 15px; 
 }
+
 #grad{
   background: -webkit-linear-gradient(#000000,#6d6d6d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+
 #grad2{
   font-family: 'Lobster Two', cursive;
   font-size: 22px;
@@ -107,9 +125,11 @@ button{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+
 img{
   width: 255px;
 }
+
 #im-gs{
   display: flex;
   justify-content: space-between;
@@ -118,15 +138,18 @@ img{
   display: flex;
   justify-content:space-between;
 }
+
 #next1{
   font-family: 'Petit Formal Script', cursive;
   color: white;
   font-weight: bold;
   margin: 10px;
 }
+
 #enterBut{
    font-family: 'Petit Formal Script', cursive;
   color: white;
   font-weight: bold;
   margin: 10px;
 }
+
