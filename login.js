@@ -25,3 +25,13 @@ function loginUser() {
         }
     }
 }
+
+function loadUserInfo() {
+    /* 
+    Next steps:
+    Add div to hold user greeting
+    Update innerHtml for div to say 'Welcome Back, ${currentUser}'
+    EXTENSION: array of greetings, randomly pick one
+    */
+    debugger;
+}

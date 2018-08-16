@@ -97,7 +97,5 @@ function storeClassInputs(name, grades, priorityList) {
     // localStorage.setItem(name, JSON.stringify(newUser)); 
 }
 
-function loadUserPage() {
-    //debugger;
-}
+
 
