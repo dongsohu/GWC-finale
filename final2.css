@@ -151,7 +151,13 @@ img{
   margin: 10px;
 }
 
-
+#newnext{
+  font-family: 'Petit Formal Script', cursive;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  
+}
 
 #welcome{
  font-family: 'Petit Formal Script', cursive;

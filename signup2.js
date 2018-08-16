@@ -72,7 +72,7 @@ function readClassInputs(){
     storeClassInputs(grades, priorityList);
 }
 
-function storeClassInputs(grades, priorityList) {
+function storeClassInputs(name, grades, priorityList) {
     // create template object for all users
     /*
     var usersObject = {
@@ -94,6 +94,10 @@ function storeClassInputs(grades, priorityList) {
  
     // convert newUser object to string and save to localStorage
     /* global localStorage */
-    localStorage.setItem(name, JSON.stringify(newUser)); */
+    // localStorage.setItem(name, JSON.stringify(newUser)); 
+}
+
+function loadUserPage() {
+    debugger;
 }
 
