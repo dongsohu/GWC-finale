@@ -35,6 +35,9 @@ function storeSignUpInputs(name, email, password) {
     // convert newUser object to string and save to localStorage
     /* global localStorage */
     localStorage.setItem(name, JSON.stringify(newUser));
+    // by default, log in new user
+    localStorage.setItem('currentUser', name);
+    console.log('current user', localStorage.getItem('currentUser'));
 }
 
 function readClassInputs(){
@@ -90,7 +93,7 @@ function storeClassInputs(grades, priorityList) {
     newUser.email = email;
  
     // convert newUser object to string and save to localStorage
-    /* global localStorage 
+    /* global localStorage */
     localStorage.setItem(name, JSON.stringify(newUser)); */
 }
 
