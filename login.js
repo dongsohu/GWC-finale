@@ -8,16 +8,20 @@ function loginUser() {
     var user = localStorage.getItem(usernameInput);
     
     if (!user) {
+        // if username is not found, throw an alert
         alert("User not found!");
     } else {
+        // else, convert user data to JSON object and check password
         user = JSON.parse(user);
         
         if (user.password !== passwordInput) {
+            // throw alert if password is incorrect
             alert("Password is incorrect");
         } else {
-            localStorage.setItem('currentUser', user.name);
+            // else sign user in 
+            currentUser = usernameInput;
+            localStorage.setItem('currentUser', currentUser);
             console.log('current user', localStorage.getItem('currentUser'));
         }
     }
-    debugger;
 }
