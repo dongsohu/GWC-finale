@@ -15,11 +15,12 @@
     
     <h1 class="OAR">On A Roll</h1>
     <p class='words'>Log In</p>
-    <forms name="loginForm">
-        <p class='words2'><input placeholder="Name/Email" id="user-name" name="nameEmail"></p>
-    <p class='words2'><input placeholder="Password" id="user-pswrds" name="logPSWRD"></p>
-    <button id="enterBut" class='words2'><a class="site" >Enter</button></a>
-    </forms>
+    <form name="loginForm" id="login" action="basicpg.html" onSubmit="loginUser()">
+      <p class='words2'><input placeholder="Username" id="loginName" name="nameEmail" required></p>
+      <p class='words2'><input placeholder="Password" id="loginPswrd" name="logPSWRD" required></p>
+      <button id="enterBut" class='words2'>Enter</button>
+    </form>
   
+    <script src='login.js'></script>
   </body>
 </html>

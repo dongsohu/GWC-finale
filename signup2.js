@@ -98,6 +98,6 @@ function storeClassInputs(name, grades, priorityList) {
 }
 
 function loadUserPage() {
-    debugger;
+    //debugger;
 }
 
