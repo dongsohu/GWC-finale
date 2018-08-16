@@ -54,3 +54,9 @@ function newElement() {
     }
   }
 }
+
+/*global location*/
+document.getElementById("#buuton").onclick = function () {
+        location.href = "usersGoals.html";
+};
+  

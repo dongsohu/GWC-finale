@@ -212,7 +212,7 @@ ul li:hover {
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
+  background: #FF8C00;
   color: #fff; 
   text-decoration: line-through;
 }
@@ -240,7 +240,7 @@ ul li.checked::before {
 }
 
 .close:todoheader {
-  background-color: #f44336;
+  background-color: #008000;
   color: white;
 }
 
@@ -248,8 +248,10 @@ ul li.checked::before {
 .todoheader {
   background-color: #f44336;
   padding: 30px 40px;
+  padding-bottom: 40px;
   color: white;
   text-align: center;
+  
 }
 
 /* Clear floats after the header */
@@ -261,7 +263,7 @@ ul li.checked::before {
 
 /* Style the input */
 #myInput {
-  margin: 0;
+  margin-bottom: 0;
   border: none;
   border-radius: 0;
   width: 75%;
@@ -275,7 +277,7 @@ ul li.checked::before {
   padding: 10px;
   width: 25%;
   background: #00FF00;
-  color: #ADFF2F;
+  color: #555;
   float: left;
   text-align: center;
   font-size: 16px;
@@ -285,11 +287,13 @@ ul li.checked::before {
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: #ADFF2F;
 }
+
+
 #allbasic{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   
 
 }
@@ -297,9 +301,9 @@ ul li.checked::before {
   font-family: 'Petit Formal Script', cursive;
   color: black;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
 }
 .basic2{
    font-family: 'Lobster Two', cursive;
-  font-size: 15px;
+  font-size: 25px;
 }
